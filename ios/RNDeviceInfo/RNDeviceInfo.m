@@ -112,12 +112,7 @@ RCT_EXPORT_MODULE();
 
 - (NSString*) userAgent
 {
-#if TARGET_OS_TV
-    return @"not available";
-#else
-    UIWebView* webView = [[UIWebView alloc] initWithFrame:CGRectZero];
-    return [webView stringByEvaluatingJavaScriptFromString:@"navigator.userAgent"];
-#endif
+  return @"not available";
 }
 
 - (NSString*) deviceLocale
@@ -131,7 +126,7 @@ RCT_EXPORT_MODULE();
     return [NSLocale preferredLanguages];
 }
 
-- (NSString*) deviceCountry 
+- (NSString*) deviceCountry
 {
   NSString *country = [[NSLocale currentLocale] objectForKey:NSLocaleCountryCode];
   return country;
