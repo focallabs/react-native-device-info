@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      "react-native-device-info@2.3.2",
+      "/Users/duongtung/Remote-Working/FocalLab/WTV_UGC/wtv-ugc-app-new"
+    ]
+  ],
+  "_from": "react-native-device-info@2.3.2",
+  "_id": "react-native-device-info@2.3.2",
+  "_inBundle": false,
+  "_integrity": "sha512-ccpPuUbwhw5uYdVwN1UJp6ykMZz6U/u82HNM3oJ7O6MP8RIMlMDkHbqR4O0sDtUSuRMGiqqRzFtmOLFYeQ0ODw==",
+  "_location": "/react-native-device-info",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-device-info@2.3.2",
+    "name": "react-native-device-info",
+    "escapedName": "react-native-device-info",
+    "rawSpec": "2.3.2",
+    "saveSpec": null,
+    "fetchSpec": "2.3.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-device-info/-/react-native-device-info-2.3.2.tgz",
+  "_spec": "2.3.2",
+  "_where": "/Users/duongtung/Remote-Working/FocalLab/WTV_UGC/wtv-ugc-app-new",
+  "author": {
+    "name": "Rebecca Hughes",
+    "email": "rebecca@learnium.net",
+    "url": "https://github.com/rebeccahughes"
+  },
+  "bugs": {
+    "url": "https://github.com/react-native-community/react-native-device-info/issues"
+  },
+  "contributors": [
+    {
+      "name": "Gant Laborde",
+      "email": "gant@infinite.red",
+      "url": "https://github.com/gantman"
+    },
+    {
+      "name": "Mehdi Achour",
+      "email": "machour@gmail.com",
+      "url": "https://github.com/machour"
+    },
+    {
+      "name": "Mike Hardy",
+      "email": "github@mikehardy.net",
+      "url": "https://github.com/mikehardy"
+    }
+  ],
+  "dependencies": {},
+  "description": "Get device information using react-native",
+  "devDependencies": {
+    "@react-native-community/eslint-config": "0.0.5",
+    "eslint": "^6.1.0",
+    "flow-bin": "^0.104.0",
+    "husky": "^3.0.2",
+    "lint-staged": "^9.2.1",
+    "np": "^5.0.3",
+    "prettier": "^1.18.2",
+    "react": "^16.8.3",
+    "typescript": "^3.5.3"
+  },
+  "eslintConfig": {
+    "extends": "@react-native-community"
+  },
+  "homepage": "https://github.com/react-native-community/react-native-device-info#readme",
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "windows",
+    "device",
+    "events",
+    "cocoapod"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "npm run lint",
+      "git add"
+    ]
+  },
+  "main": "deviceinfo.js",
+  "name": "react-native-device-info",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-native-community/react-native-device-info.git"
+  },
+  "scripts": {
+    "analyze": "npm run ts-check && npm run flow-check",
+    "dev-sync": "cp -r deviceinfo* *podspec default windows web android ios example/node_modules/react-native-device-info/",
+    "flow-check": "npx flow check-contents < deviceinfo.js.flow",
+    "lint": "npx eslint ./ --ignore-pattern example --ignore-pattern node_modules --fix --quiet",
+    "precommit": "lint-staged && npm run analyze",
+    "shipit": "np --no-yarn",
+    "ts-check": "npx tsc deviceinfo.d.ts --noEmit"
+  },
+  "typings": "./deviceinfo.d.ts",
+  "version": "2.3.2"
+}
