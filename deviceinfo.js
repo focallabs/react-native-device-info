@@ -29,6 +29,66 @@ if (!RNDeviceInfo) {
 const devicesWithNotch = [
   {
     brand: 'Apple',
+    model: 'iPhone 14',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 14 Plus',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 14 Pro',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 14 Pro Max',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 13 mini',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 13',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 13 Pro',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 13 Pro Max',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 12 mini',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 12',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 12 Pro',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 12 Pro Max',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 11',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 11 Pro',
+  },
+  {
+    brand: 'Apple',
+    model: 'iPhone 11 Pro Max',
+  },
+  {
+    brand: 'Apple',
     model: 'iPhone X',
   },
   {
@@ -56,6 +116,10 @@ const devicesWithNotch = [
     model: 'Pixel 3 XL',
   },
   {
+    brand: 'google',
+    model: 'Pixel 4a',
+  },
+  {
     brand: 'Huawei',
     model: 'P20',
   },
@@ -77,6 +141,14 @@ const devicesWithNotch = [
   },
   {
     brand: 'Huawei',
+    model: 'POT-LX1',
+  },
+  {
+    brand: 'Huawei',
+    model: 'Honor Play',
+  },
+  {
+    brand: 'Huawei',
     model: 'Honor 10',
   },
   {
@@ -89,11 +161,19 @@ const devicesWithNotch = [
   },
   {
     brand: 'Huawei',
+    model: 'ELE-L29', // P30
+  },
+  {
+    brand: 'Huawei',
     model: 'P30 Lite',
   },
   {
     brand: 'Huawei',
     model: 'P30 Pro',
+  },
+  {
+    brand: 'Huawei',
+    model: 'JNY-LX1', // P40 Lite
   },
   {
     brand: 'Huawei',
@@ -144,12 +224,16 @@ const devicesWithNotch = [
     model: 'One',
   },
   {
+    brand: 'Motorola',
+    model: 'Motorola One Vision',
+  },
+  {
     brand: 'Nokia',
     model: '5.1 Plus',
   },
   {
     brand: 'Nokia',
-    model: '6.1 Plus',
+    model: 'Nokia 6.1 Plus',
   },
   {
     brand: 'Nokia',
@@ -204,6 +288,10 @@ const devicesWithNotch = [
     model: 'U18',
   },
   {
+    brand: 'Redmi',
+    model: 'M2004J19C',
+  },
+  {
     brand: 'Sharp',
     model: 'Aquos S3',
   },
@@ -241,6 +329,10 @@ const devicesWithNotch = [
   },
   {
     brand: 'xiaomi',
+    model: 'Mi 9',
+  },
+  {
+    brand: 'xiaomi',
     model: 'POCO F1',
   },
   {
@@ -257,7 +349,35 @@ const devicesWithNotch = [
   },
   {
     brand: 'xiaomi',
+    model: 'Redmi 7',
+  },
+  {
+    brand: 'xiaomi',
+    model: 'Redmi Note 8',
+  },
+  {
+    brand: 'xiaomi',
+    model: 'Redmi Note 8 Pro',
+  },
+  {
+    brand: 'xiaomi',
     model: 'Mi A2 Lite',
+  },
+  {
+    brand: 'Blackview',
+    model: 'A30',
+  },
+  {
+    brand: 'Samsung',
+    model: 'SM-A202F',
+  },
+  {
+    brand: 'Samsung',
+    model: 'SM-A217F',
+  },
+  {
+    brand: 'Samsung',
+    model: 'SM-A715F',
   },
 ];
 
